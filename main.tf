@@ -1,7 +1,5 @@
 provider "aws" {
   region = "us-west-2" # Adjust region as needed
-  access_key = "AKIA5G2VGXQCHL5NBMN3"
-  secret_key = "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"
 }
 
 # Security Group for the Spring Boot instance
