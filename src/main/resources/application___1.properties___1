@@ -1,0 +1,5 @@
+spring.application.name=DemoPostgresProj
+spring.datasource.url=jdbc:postgresql://localhost:5433/demopost
+spring.datasource.username=postgres
+spring.datasource.password=admin
+spring.jpa.hibernate.ddl-auto=update

@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: DemoPostgresProj
+  config:
+    activate:
+      on-profile: default
+  datasource:
+    url: jdbc:postgresql://localhost:5433/demopost
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
